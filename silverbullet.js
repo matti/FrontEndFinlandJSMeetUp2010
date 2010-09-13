@@ -12,11 +12,21 @@ instructions:
 */
 
 var slidelist = [
-"index.html",
 "title.svg",
+"enemy.html",
+"cs.html",
+"svgopen.html",
 "svg.svg",
 "support.svg",
-"svg-vs-canvas.svg"
+"svg-vs-canvas.svg",
+"canvas-jigsaw.html",
+"canvas-wolf3d.html",
+"svg-wow.html",
+"interfaces.html",
+"svg-and-canvas.svg",
+"svg-js.html",
+"pottisjs.html",
+"thanks.html"
 ];
 
 // if 'importScript' is not supported, add shim support

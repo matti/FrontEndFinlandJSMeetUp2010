@@ -31,7 +31,7 @@
         </g>
 
         <g class="bullet colorbox"> 
-          <text x="170" y="20" font-size="80">vs</text> 
+          <text x="170" y="20" font-size="80">ja</text> 
         </g>
 
         <g class="bullet colorbox"> 
@@ -39,35 +39,12 @@
         </g>
 
 
-         <g transform="translate(40, 80)" font-size="50">
+         <g transform="translate(40, 100)" font-size="50">
             <g class="bullet colorbox">            
-              <text>Vektori</text> 
-            </g>
-
-            <g class="bullet colorbox">            
-              <text x="250">Bittikartta</text> 
+              <text>Avoimet standardit</text> 
             </g>
 
 
-            <g class="bullet colorbox">            
-              <text y="90">DOM:ssa</text> 
-            </g>
-            
-            <g class="bullet colorbox">            
-              <text y="90" x="250">Ei ylläpidä tilaa</text> 
-            </g>
-
-            <g class="bullet colorbox">            
-              <text y="180">Nopeus riippuu</text> 
-            </g>
-            
-            <g class="bullet colorbox">          
-              <text y="180" x="280">Nopea</text> 
-            </g>
-
-            <g class="bullet colorbox">          
-              <text y="220" x="400">IE 9!</text> 
-            </g>
 
          </g>
     </g>

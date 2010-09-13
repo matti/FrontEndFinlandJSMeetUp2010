@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "YanoneKaffeesatzRegular";
+  src: local("Yanone Kaffeesatz Regular"), 
+       url("fonts/Yanone_Kaffeesatz_Regular.woff") format("woff"),
+       url("fonts/Yanone_Kaffeesatz_Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "YanoneKaffeesatzLight";
+  src: local("Yanone Kaffeesatz Light"), 
+       url("fonts/Yanone_Kaffeesatz_Light.woff") format("woff"),
+       url("fonts/Yanone_Kaffeesatz_Light.otf") format("opentype");
+}
+
+.title {
+  font-family: "YanoneKaffeesatzRegular", sans-serif;
+}
+
+.subheading, .bullet, .item {
+  font-family: "YanoneKaffeesatzLight", sans-serif;
+}
+
+.heading {
+  font-family: "YanoneKaffeesatzRegular", sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  fill: gold;
+}
+
+

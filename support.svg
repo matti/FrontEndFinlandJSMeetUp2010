@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 640 480">
+ 
+  <title>JavaScript, SVG ja Canvas</title> 
+  
+  <script id="slideshowLibrary" xlink:href="silverbullet.js" type="text/ecmascript"></script> 
+
+  <style type="text/css">@import url(silverbullet.css);</style> 
+  
+  <defs>                    
+    <linearGradient id="black_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,90);stop-opacity:1"/>
+    </linearGradient>
+
+  
+  </defs> 
+  
+
+  <rect id="bg" width="100%" height="100%"  /> 
+  
+   
+  <text class="heading" fill="gold" text-anchor="left" font-size="50" font-weight="bold" x="20" y="50">
+    Toimiiko SVG selaimessa X?
+  </text> 
+  
+
+        
+                
+   <g id="content" font-size="40" fill="white"> 
+
+
+    <g transform="translate(50,120)">
+      <g class="bullet colorbox"> 
+        <text>Kyllä ja ei</text> 
+      </g>
+
+      <g class="bullet colorbox" font-size="30"> 
+        <text x="30" y="50">Riippuu pitkälti selaimen versiosta</text> 
+      </g>
+
+      <g class="bullet colorbox" font-size="20"> 
+        <text y="100">Opera, Webkit (Safari, Chrome), Firefox</text> 
+      </g>
+
+      <g class="bullet colorbox" font-size="50"> 
+        <text x="30" y="170">Internet Explorer</text>
+      </g>
+      
+      <g class="bullet colorbox" font-size="70"> 
+        <text x="320" y="180">9</text>
+      </g>
+      
+    </g>
+
+    <g transform="translate(420,100)">
+      <g class="bullet colorbox"> 
+        <text>Kiertoteitä</text> 
+      </g> 
+      
+      <g transform="translate(50,60)">
+        <g class="bullet colorbox"> 
+          <text>SVG-Web</text> 
+        </g>       
+        
+        <g class="bullet colorbox"> 
+          <text x="40" y="50">Canvg</text> 
+        </g> 
+
+        <g class="bullet colorbox"> 
+          <text y="100">Rasterointi</text> 
+        </g> 
+      </g>
+    </g>
+    
+    <g class="bullet colorbox" transform="rotate(-5)" font-size="45"> 
+      <text x="30" y="430">Onko oleellista kaikissa ympäristöissä?</text> 
+    </g>       
+       
+          
+    <g class="bullet" transform="translate(0,20)">
+      <image xlink:href="svg-support.png" height="100%" width="100%" y="0" x="0"/>
+   
+      <g class="bullet">
+         <rect width="90" height="395" x="310" y="43" fill="green"/>
+      </g>
+
+      <g class="bullet">
+         <rect width="550" height="50" x="100" y="230" fill="green"/>
+      </g>
+
+      <g class="bullet">
+         <rect width="260" height="395" x="310" y="43" fill="green"/>
+      </g>
+
+    </g>
+ 
+                
+  </g> 
+  
+ 
+   
+</svg> 
+ 

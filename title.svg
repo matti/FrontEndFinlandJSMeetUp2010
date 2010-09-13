@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 640 480"> 
+ 
+  <title>JavaScript, SVG ja Canvas</title> 
+  
+  <script id="slideshowLibrary" xlink:href="silverbullet.js" type="text/ecmascript"></script> 
+  <style type="text/css">@import url(silverbullet.css);</style> 
+  
+  <defs id="defs">      
+
+     <path id="heading"
+     d="M 30,100
+        C 280,53 381,157 444,243
+        C 518,480 840,480 640,480" /> 
+                  
+  </defs> 
+  
+  <rect id="bg" width="100%" height="100%" fill="black" /> 
+ 
+ 
+  <text class="heading" fill="gold" text-anchor="left" font-size="80" font-weight="bold">
+    <textPath xlink:href="#heading" startOffset="">JavaScript, SVG ja Canvas</textPath>
+  </text> 
+
+
+ <g id="content" font-size="50"> 
+
+    <g class="bullet colorbox"> 
+      <text x="100" y="240" fill="white">Matti Paksula</text> 
+    </g> 
+
+    <g class="bullet colorbox"> 
+      <text x="150" y="350" fill="white">Frontend Finland</text> 
+      <text x="250" y="390" fill="white">15.9.2010</text> 
+    </g>  
+
+  </g> 
+  
+   
+</svg> 
+ 

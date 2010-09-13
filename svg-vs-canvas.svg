@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 640 480">
+ 
+  <title>JavaScript, SVG ja Canvas</title> 
+  
+  <script id="slideshowLibrary" xlink:href="silverbullet.js" type="text/ecmascript"></script> 
+
+  <style type="text/css">@import url(silverbullet.css);</style> 
+  
+  <defs>                    
+    <linearGradient id="black_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,90);stop-opacity:1"/>
+    </linearGradient>
+
+  
+  </defs> 
+  
+
+  <rect id="bg" width="100%" height="100%"  /> 
+  
+         
+                
+   <g id="content" font-size="40" fill="white"> 
+
+
+    <g transform="translate(70,150)" font-size="100">
+        <g class="bullet colorbox"> 
+          <text>SVG</text> 
+        </g>
+
+        <g class="bullet colorbox"> 
+          <text x="170" y="20" font-size="80">vs</text> 
+        </g>
+
+        <g class="bullet colorbox"> 
+          <text x="280">Canvas</text> 
+        </g>
+
+
+         <g transform="translate(40, 80)" font-size="50">
+            <g class="bullet colorbox">            
+              <text>Vektori</text> 
+            </g>
+
+            <g class="bullet colorbox">            
+              <text x="250">Bittikartta</text> 
+            </g>
+
+
+            <g class="bullet colorbox">            
+              <text y="90">DOM:ssa</text> 
+            </g>
+            
+            <g class="bullet colorbox">            
+              <text y="90" x="250">Ei ylläpidä tilaa</text> 
+            </g>
+
+            <g class="bullet colorbox">            
+              <text y="180">Nopeus riippuu</text> 
+            </g>
+            
+            <g class="bullet colorbox">          
+              <text y="180" x="280">Nopea</text> 
+            </g>
+
+         </g>
+    </g>
+
+
+                
+  </g> 
+  
+   
+</svg> 
+ 

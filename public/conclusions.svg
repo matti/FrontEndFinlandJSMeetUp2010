@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 640 480">
+ 
+  <title>JavaScript, SVG ja Canvas</title> 
+  
+  <script id="slideshowLibrary" xlink:href="silverbullet.js" type="text/ecmascript"></script> 
+
+  <style type="text/css">@import url(silverbullet.css);</style> 
+  
+  <defs>                    
+   	<polygon id="arrow" points="902.25049,222.98633 233.17773,222.98633 233.17773,364.71875 0,182.35938 233.17773,0 233.17773,141.73242 902.25049,141.73242 902.25049,222.98633" />
+  
+  </defs> 
+  
+
+  <rect id="bg" width="100%" height="100%" fill="black" /> 
+  
+   
+  <text class="heading" fill="gold" text-anchor="left" font-size="50" font-weight="bold" x="20" y="50">
+    Yhteenveto
+  </text> 
+  
+        
+   <g id="content" font-size="40" fill="white"> 
+
+      <g transform="translate(80,150)">
+      
+        <g class="bullet colorbox"> 
+          <text>Vektorigrafiikkaa tarvitaan</text> 
+        </g>
+      
+        <g class="bullet colorbox">
+          <text y="80">SVG antaa paljon ilmaiseksi</text> 
+        </g>
+
+        <g class="bullet colorbox">
+          <text y="160">Tuki yleensä ratkaistavissa</text> 
+        </g>
+
+        <g class="bullet colorbox">
+          <text y="240">JavaScript + Canvas + SVG</text> 
+        </g>
+
+
+
+      </g>
+    
+  </g> 
+   
+</svg> 
+ 

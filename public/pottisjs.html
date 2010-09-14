@@ -4,11 +4,20 @@
   <title>Table of Contents</title>
 
   <script src="silverbullet.js">  </script>
+  
+  <script type="text/javascript" src="shjs/sh_main.js"></script>
+	<script type="text/javascript" src="shjs/sh_javascript.js"></script>
+	<script type="text/javascript" src="shjs/sh_html.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="shjs/sh_style.css" />
+
+
+  
   <link rel="stylesheet" href="silverbullet.css" type="text/css" media="screen, projection, print"> </link>
 
   <style>    
     body {
-      background-color: white;
+      background-color: black;
       color: white;
     }
 
@@ -24,10 +33,32 @@
       /*list-style: none;*/
     }
 
+    pre {
+      font-size: 2em;
+      padding-left: 1em;
+    }
   </style>
 
 </head>
-<body>
-  <iframe src ="http://pottisjs.com" width="100%" height="600"></iframe>  
+<body onLoad="sh_highlightDocument();">
+
+  <h1>PottisJS</h1>
+ 
+<pre class="sh_javascript">
+
+// Elementit ja toiminnallisuus
+var apple = pottis.use("apple", "first_apple", 100, 100);
+
+pottis.addClick(apple, appleClicked);
+pottis.addDrag(apple);
+
+// Callback
+function appleClicked(e) {
+    pottis.rotateAdd(this, 45);
+    pottis.scale(this, 0.5);
+}
+		
+</pre>
+
 </body>
 </html>

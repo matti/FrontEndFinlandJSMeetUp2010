@@ -17,6 +17,7 @@ var slidelist = [
 "cs.html",
 "svgopen.html",
 "svg.svg",
+"svg-motivation.html",
 "support.svg",
 "svg-vs-canvas.svg",
 "canvas-jigsaw.html",

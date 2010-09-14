@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 640 480">
+ 
+  <title>JavaScript, SVG ja Canvas</title> 
+  
+  <script id="slideshowLibrary" xlink:href="silverbullet.js" type="text/ecmascript"></script> 
+
+  <style type="text/css">@import url(silverbullet.css);</style> 
+  
+  <defs>                    
+   	<polygon id="arrow" points="902.25049,222.98633 233.17773,222.98633 233.17773,364.71875 0,182.35938 233.17773,0 233.17773,141.73242 902.25049,141.73242 902.25049,222.98633" /> 
+  </defs> 
+  
+
+  <rect id="bg" width="100%" height="100%" style="fill:url(#black_blue)" /> 
+  
+   
+  <text class="heading" fill="gold" text-anchor="left" font-size="50" font-weight="bold" x="20" y="50">
+    Adobe ja SVG
+  </text> 
+  
+        
+   <g id="content" font-size="40" fill="white"> 
+
+    <g transform="translate(40,120)">
+
+
+      <g class="bullet colorbox"> 
+        <text>Aluksi Adobe rakensi standardia</text> 
+      </g> 
+
+      <g class="bullet colorbox"> 
+        <text x="200" y="60">Hyvä plugin: Adobe SVG Viewer</text> 
+      </g> 
+
+     
+      <g class="bullet colorbox"> 
+        <text y="90">2005</text> 
+      </g> 
+
+      <g class="bullet colorbox"> 
+        <text x="95" y="130">Macromedia: Flash</text> 
+      </g> 
+
+      <g class="bullet colorbox"> 
+        <text x="340" y="120">Flash Player</text> 
+      </g> 
+
+      <g class="bullet colorbox"> 
+        <text x="150" y="250" font-size="70">2010</text> 
+      </g> 
+
+    </g>
+        
+    <g class="bullet">
+      <image xlink:href="adobe-cs5.png" width="100%" height="100%" y="0" x="10"/>
+    </g>
+
+
+
+    <g class="bullet colorbox"> 
+      <text x="100" y="250">SVG kuten Flash</text> 
+    </g>  
+
+  
+    <g class="bullet colorbox"> 
+      <text x="80" y="370">Canvas pikseleihin</text> 
+    </g>  
+
+    <g class="bullet colorbox"> 
+      <text x="400" y="290">+ JavaScript</text> 
+    </g>
+
+    
+  </g> 
+   
+</svg> 
+ 

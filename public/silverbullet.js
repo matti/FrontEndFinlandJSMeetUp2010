@@ -26,6 +26,8 @@ var slidelist = [
 "svg-and-canvas.svg",
 "svg-js.html",
 "pottisjs.html",
+"adobe.svg",
+"small-screens.svg",
 "thanks.html"
 ];
 

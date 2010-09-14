@@ -23,54 +23,37 @@
   
    
   <text class="heading" fill="gold" text-anchor="left" font-size="50" font-weight="bold" x="20" y="50">
-    Mikä on SVG?
+    Useita päätelaitteita - eri näyttökokoja
   </text> 
   
         
    <g id="content" font-size="40" fill="white"> 
 
-    
-    <g class="bullet">
-      <image xlink:href="tiger.svg" id="tiger" transform="scale(0.5)"  height="600" width="600" y="100" x="80"/>
-      <image xlink:href="butterfly.svg" id="butterfly" transform="scale(0.5)" height="300" width="450" y="300" x="460"/>
-    </g>
+    <g transform="translate(40,120)">
 
-    <g class="bullet colorbox"> 
-      <text x="300" y="140">Vektorigrafiikkaformaatti</text> 
-    </g> 
-
-    <g class="bullet colorbox"> 
-      <text x="60" y="340">W3C</text> 
-    </g>  
-
+      <g class="bullet">
+        <image xlink:href="canon-5d.jpg" width="50%" height="50%" y="0" x="0"/>
+      </g>
   
-    <g class="bullet colorbox"> 
-      <text x="150" y="350">Vuodelta 2001</text> 
-    </g>  
-
-
-    <g class="bullet colorbox" font-size="60"> 
-      <text x="30" y="430">Valtavasti tavaraa
-      
-        <tspan><a xlink:href="http://www.w3.org/TR/2004/WD-SVG12-20041027/" target="_new">Spec</a></tspan>
-      </text> 
-    </g>
+      <g class="bullet">
+        <image xlink:href="iphone.png" width="50%" height="50%" y="0" x="220"/>
+      </g>
         
-    <g transform="translate(430,230)">
       <g class="bullet colorbox"> 
-        <text>Wikipedia</text> 
-      </g>  
+        <text>iPhone</text> 
+      </g> 
 
       <g class="bullet colorbox"> 
-        <text y="80">OpenStreetMap</text> 
-      </g>  
+        <text y="80">Nokia</text> 
+      </g> 
+
+      <g class="bullet colorbox"> 
+        <text y="160">..android supports flash!!1</text> 
+      </g> 
+
+
     </g>
-
-
-    <g class="bullet">
-      <use xlink:href="#arrow" transform="rotate(75) translate(80, -250) scale(0.15)" fill="red" />
-    </g>
-
+  
     
   </g> 
    

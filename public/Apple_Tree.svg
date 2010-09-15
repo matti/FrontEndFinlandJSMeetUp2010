@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,16 +14,17 @@
    height="600"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.48.0 r9654"
    version="1.0"
    sodipodi:docname="Apple_Tree.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
-<!-- INSTRUCTIONS!
+  <!-- INSTRUCTIONS!
 	1. Create a cool SVG with Inkscape (or download from the internet)
 	2. Add xmlns:xlink attribute to the SVG file
 	3. Add the script stuff on top of the defs element
 	4. Maybe a title, too!
-	-->  <title
+	-->
+  <title
      id="title10430">PottisJS example: Stand-alone SVG apple tree scene</title>
   <script
      type="text/ecmascript"
@@ -75,16 +77,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.78"
-     inkscape:cx="435.99838"
-     inkscape:cy="332.30013"
+     inkscape:cx="403.48137"
+     inkscape:cy="298.26194"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
      width="1200px"
      inkscape:window-width="1280"
      inkscape:window-height="800"
-     inkscape:window-x="230"
-     inkscape:window-y="242" />
+     inkscape:window-x="33"
+     inkscape:window-y="13"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
